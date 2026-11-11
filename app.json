@@ -1,0 +1,56 @@
+{
+  "version": "0.3",
+  "kind": "app",
+  "generatedAt": "2026-11-11T13:21:52.328Z",
+  "item": {
+    "title": "New Conversation"
+  },
+  "map": {
+    "type": "webmap",
+    "path": "./map.json"
+  },
+  "app": {
+    "template": "nova-app",
+    "preset": "map",
+    "showHeader": false,
+    "theme": {
+      "mode": "light",
+      "accent": "default"
+    },
+    "layout": {},
+    "widgets": [
+      {
+        "id": "default-home",
+        "type": "home",
+        "slot": "top-left",
+        "config": {}
+      },
+      {
+        "id": "default-scale-bar",
+        "type": "scaleBar",
+        "slot": "bottom-left",
+        "config": {}
+      }
+    ],
+    "interactions": [],
+    "behaviors": []
+  },
+  "nova": {
+    "projectId": "a759d0d8-feb6-4887-89e5-336c6aac21d3",
+    "basename": "1eb3ad5a-85e8-4fea-9b12-2133c613acbf",
+    "presentationMode": "map",
+    "ownedGraphicsLayerIds": [],
+    "origin": {
+      "portalUrl": "https://www.arcgis.com",
+      "mapId": "output-ea31f0d3-ff81-448e-93ed-26dc0c3e272a",
+      "mapName": "New Conversation",
+      "viewMode": "2d",
+      "capturedAt": "2026-11-11T13:21:52.324Z"
+    },
+    "sourceSelection": {
+      "mode": "all"
+    },
+    "unsupportedLayers": [],
+    "degradedFeatures": []
+  }
+}

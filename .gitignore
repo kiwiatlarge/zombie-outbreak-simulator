@@ -1,0 +1,4 @@
+.nova-dev/
+*.tmp
+.*.staging-*
+.*.backup-*
